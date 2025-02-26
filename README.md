@@ -26,18 +26,18 @@ pman -S tesseract tesseract-data-eng swappy grim slurp wl-clipboard
 
 ### 2️⃣ Clone This Repo
 ```bash
-git clone [For later]
-cd Text-Extractor-Linux
+git clone https://github.com/TheBrightSoul/Screen-Text-Reader
+cd Screen-Text-Reader
 ```
 
 ### 3️⃣ Make It Executable
 ```bash
-chmod +x text-extractor.sh
+chmod +x ocr-screenshot.sh
 ```
 
 ### 4️⃣ Move It to `/usr/local/bin/` (Optional, for global use)
 ```bash
-sudo mv text-extractor.sh /usr/local/bin/text-extractor
+sudo mv ocr_screenshot.sh /usr/local/bin/ocr-screenshot.sh
 ```
 
 ---
@@ -47,11 +47,11 @@ sudo mv text-extractor.sh /usr/local/bin/text-extractor
 ### 🖼️ Take a Screenshot & Extract Text
 Simply run:
 ```bash
-./text-extractor.sh
+./ocr-screenshot.sh  
 ```
 Or, if you moved it to `/usr/local/bin/`:
 ```bash
-text-extractor
+ocr-screenshot
 ```
 Then, select the region you want text extracted from – and boom! The text is copied to your clipboard. 🎉
 
